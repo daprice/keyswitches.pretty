@@ -7,7 +7,7 @@ Footprint | Description/notes | Preview
 --------- | ----------------- | -------
 PG1350 | Just a plain one-sided mount for [Kailh PG1350](http://kailh.com/en/Products/Ks/CS/) switches | ![PG1350](images/PG1350.png)
 PG1350_reversible | Enables the switch to be mounted on either side of the PCB, similar to the switch mounts on the original Ergodox PCBs | ![PG1350 reversible](images/PG1350_reversible.png)
-PG1350_rotatable | Enables the switch to be mounted on either side of the PCB *and* optionally rotated 90° by the person assembling the board. Note that one of the PCB mounting tabs will need to be broken off of the switch to fit in this mount (which one depends on the orientation). This option is intended to allow the board assembler to accomodate keycaps that only fit in a particular orientation. | ![PG1350 rotatable](images/PG1350_rotatable.png)
+PG1350_rotatable | Enables the switch to be mounted on either side of the PCB *and* optionally rotated 90° by the person assembling the board. This option is intended to allow the board assembler to accomodate keycaps that only fit in a particular orientation. | ![PG1350 rotatable](images/PG1350_rotatable.png)
 
 The plate footprint and outer edge of the switches themselves, as well as the LED mount area, are marked on the layer Eco2.User
 
