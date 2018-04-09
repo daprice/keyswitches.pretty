@@ -1,8 +1,7 @@
 an open source [KiCad](http://kicad-pcb.org) library of mechanical keyboard switch footprints for your [open source hardware](https://www.oshwa.org/definition/) keyboard designs
 
 ## Switches
-### Kailh Low Profile "Choc"
-
+### Cherry MX style and compatibles
 Footprint | Description/notes | Preview
 --------- | ----------------- | -------
 MX | One-sided mount for any MX-compatible switches. Supports PCB mount switches. | ![MX](images/MX.png)
@@ -11,6 +10,11 @@ Kailh_socket | Hot-swappable socket mount for MX-compatible switches using [Kail
 Kailh_socket_reversible | Enables attaching hot-swappable MX-compatible socket mount on either side of the PCB. Note that the switch will be "upside-down" when mounted on the back side of the PCB, which may interfere with Cherry Profile keycaps. | ![Kailh_socket_reversible](images/Kailh_socket_reversible.png)
 Kailh_socket_optional | Enables mounting MX-compatible switches using either through-hole soldering or the hot-swappable mount. Note that the switch will be "upside-down" when mounted in the socket, which may interfere with Cherry Profile keycaps. | ![Kailh_socket_optional](images/Kailh_socket_optional.png)
 Kailh_socket_optional_reversible | Enables mounting MX-compatible switches using either through-hole soldering or the hot-swappable mount, on either side of the PCB. Note that the switch orientation will be reversed depending on which side of the PCB it is mounted on, which may affect aesthetics if the case leaves the switches visible, as well as possible interference with Cherry Profile keycaps. | ![Kailh_socket_optional_reversible](images/Kailh_socket_optional_reversible.png)
+
+
+### Kailh Low Profile "Choc"
+Footprint | Description/notes | Preview
+--------- | ----------------- | -------
 PG1350 | Just a plain one-sided mount for [Kailh PG1350](http://kailh.com/en/Products/Ks/CS/) switches | ![PG1350](images/PG1350.png)
 PG1350_reversible | Enables the switch to be mounted on either side of the PCB, similar to the switch mounts on the original Ergodox PCBs | ![PG1350 reversible](images/PG1350_reversible.png)
 PG1350_rotatable | Enables the switch to be mounted on either side of the PCB *and* optionally rotated 90° by the person assembling the board. This option is intended to allow the board assembler to accomodate keycaps that only fit in a particular orientation. | ![PG1350 rotatable](images/PG1350_rotatable.png)
