@@ -23,7 +23,7 @@ PG1350_socket_reversible | Enables attaching hot-swappable socket mount on eithe
 PG1350_optional-socket | Enables switch to be attached with either through-hole soldering or hot-swappable mount | ![PG1350 optional socket mount](images/PG1350_optional-socket.png)
 PG1350_optional-socket_reversible | Enables switch to be attached on either side of the PCB with either through-hole soldering or hot-swappable mount | ![PG1350 optional socket mount, reversible](images/PG1350_optional-socket_reversible.png)
 
-The plate footprint and outer edge of the switches themselves, as well as the LED mount area, are marked on the layer Eco2.User
+The plate footprint and outer edge of the switches themselves, as well as the LED mount area, are marked on the layer Eco2.User (note: currently, the plate footprint markings, especially for MX, are meant to show the overall dimensions of the cutout, not to be detailed enough to cut a plate from)
 
 
 ------------------------
