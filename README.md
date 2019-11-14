@@ -10,6 +10,7 @@ Footprint | Description/notes | Preview
 --------- | ----------------- | -------
 SW_MX | One-sided mount for any MX-compatible switches. Supports PCB mount switches. | ![MX Switch](images/SW_MX.png)
 SW_MX_reversible | Enables any MX-compatible switches to be mounted on either side of the PCB, similar to the switch mounts on the original Ergodox PCBs. Supports PCB mount switches. | ![SW_MX_reversible](images/SW_MX_reversible.png)
+SW_MX_reversible_minimal | A variant of SW_MX_reversible with condensed reference marking and no PCB mount holes | ![SW_MX_reversible_minimal](images/SW_MX_reversible_minimal.png)
 
 #### Hot-swap socket mount
 
