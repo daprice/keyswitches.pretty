@@ -54,6 +54,12 @@ Kailh_socket_PG1350_optional_reversible | Enables switch to be attached on eithe
 The plate footprint and outer edge of the switches themselves, as well as the LED mount area, are marked on the layer Eco2.User (note: currently, the plate footprint markings, especially for MX, are meant to show the overall dimensions of the cutout, not to be detailed enough to cut a plate from)
 
 
+## Other included components
+
+Footprint | Description/notes | Preview
+--------- | ----------------- | -------
+Stabilizer_MX_2u | Mounting holes for a 2u PCB-mount stabilizer for MX-style switches | ![2u MX-style stabilizer holes](images/Stabilizer_MX_2u.png)
+
 ------------------------
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
