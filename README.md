@@ -55,7 +55,11 @@ Footprint | Description/notes | Preview
 Kailh_socket_PG1350_optional | Enables switch to be attached with either through-hole soldering or hot-swappable mount | ![PG1350 optional socket mount](images/Kailh_socket_PG1350_optional.png)
 Kailh_socket_PG1350_optional_reversible | Enables switch to be attached on either side of the PCB with either through-hole soldering or hot-swappable mount | ![PG1350 optional socket mount, reversible](images/Kailh_socket_PG1350_optional_reversible.png)
 
-The plate footprint and outer edge of the switches themselves, as well as the LED mount area, are marked on the layer Eco2.User (note: currently, the plate footprint markings, especially for MX, are meant to show the overall dimensions of the cutout, not to be detailed enough to cut a plate from)
+### Notes (all footprints)
+
+The square in the layer F.Fab is meant to represent the outline of the switch as it would be mounted on the board. This is a change from older versions of this library but matches the KiCad library convention.
+
+The plate footprint and LED mount area are marked on the layer Eco2.User. The plate footprint markings, especially for MX, are meant to show the overall dimensions of the cutout, not to be detailed enough to cut a plate from.
 
 
 ## Other included components
