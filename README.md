@@ -37,7 +37,7 @@ Footprint | Description/notes | Preview
 --------- | ----------------- | -------
 SW_PG1350 | Just a plain one-sided mount for [Kailh PG1350](http://kailh.com/en/Products/Ks/CS/) switches | ![PG1350 switch](images/SW_PG1350.png)
 SW_PG1350_reversible | Enables the switch to be mounted on either side of the PCB, similar to the switch mounts on the original Ergodox PCBs | ![PG1350 reversible](images/SW_PG1350_reversible.png)
-SW_PG1350_rotatable | Enables the switch to be mounted on either side of the PCB *and* optionally rotated 90° by the person assembling the board. This option is intended to allow the board assembler to accomodate keycaps that only fit in a particular orientation. | ![PG1350 rotatable](images/SW_PG1350_rotatable.png)
+SW_PG1350_reversible_rotatable | Enables the switch to be mounted on either side of the PCB *and* optionally rotated 90° by the person assembling the board. This option is intended to allow the board assembler to accomodate keycaps that only fit in a particular orientation. | ![PG1350, reversible & rotatable](images/SW_PG1350_reversible_rotatable.png)
 
 #### Hot-swap socket mount
 
