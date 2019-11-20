@@ -19,6 +19,8 @@ Footprint | Description/notes | Preview
 Kailh_socket_MX | Hot-swappable socket mount for MX-compatible switches using [Kailh MX sockets](https://novelkeys.xyz/collections/miscellaneous/products/kailh-pcb-sockets) | ![Kailh_socket_MX](images/Kailh_socket_MX.png)
 Kailh_socket_MX_reversible | Enables attaching hot-swappable MX-compatible socket mount on either side of the PCB. Note that the switch will be "upside-down" when mounted on the back side of the PCB, which may interfere with Cherry Profile keycaps. | ![Kailh_socket_MX_reversible](images/Kailh_socket_MX_reversible.png)
 
+__Note:__ For all socket-mountable (and flexible-mount) footprints here, the socket is placed on the __back__ of the footprint (i.e. the switch ends up mounted on the front if the footprint is placed on the front of the board). This goes against KiCad library standards for SMD parts but is done for consistency between the direct-mount and socket-mount footprints in this library. Be aware of this when placing the footprints on your board.
+
 #### Flexible mounting (choose socket or direct soldered when assembling)
 
 Footprint | Description/notes | Preview
@@ -43,6 +45,8 @@ Footprint | Description/notes | Preview
 --------- | ----------------- | -------
 Kailh_socket_PG1350 | Hot-swappable socket mount for [Kailh Choc PCB Sockets](https://novelkeys.xyz/collections/miscellaneous/products/kailh-pcb-sockets?variant=3762779357224) | ![PG1350 socket mount](images/Kailh_socket_PG1350.png)
 Kailh_socket_PG1350_reversible | Enables attaching hot-swappable socket mount on either side of the PCB | ![PG1350 reversible socket mount](images/Kailh_socket_PG1350_reversible.png)
+
+__Note:__ For all socket-mountable (and flexible-mount) footprints here, the socket is placed on the __back__ of the footprint (i.e. the switch ends up mounted on the front if the footprint is placed on the front of the board). This goes against KiCad library standards for SMD parts but is done for consistency between the direct-mount and socket-mount footprints in this library. Be aware of this when placing the footprints on your board.
 
 #### Flexible mounting (choose socket or direct soldered when assembling)
 
