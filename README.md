@@ -19,8 +19,6 @@ Footprint | Description/notes | Preview
 Kailh_socket_MX | Hot-swappable socket mount for MX-compatible switches using [Kailh MX sockets](https://novelkeys.xyz/collections/miscellaneous/products/kailh-pcb-sockets) | ![Kailh_socket_MX](images/Kailh_socket_MX.png)
 Kailh_socket_MX_reversible | Enables attaching hot-swappable MX-compatible socket mount on either side of the PCB. Note that the switch will be "upside-down" when mounted on the back side of the PCB, which may interfere with Cherry Profile keycaps. | ![Kailh_socket_MX_reversible](images/Kailh_socket_MX_reversible.png)
 
-__Note:__ For all socket-mountable (and flexible-mount) footprints here, the socket is placed on the __back__ of the footprint (i.e. the switch ends up mounted on the front if the footprint is placed on the front of the board). This goes against KiCad library standards for SMD parts but is done for consistency between the direct-mount and socket-mount footprints in this library. Be aware of this when placing the footprints on your board.
-
 #### Flexible mounting (choose socket or direct soldered when assembling)
 
 Footprint | Description/notes | Preview
@@ -46,8 +44,6 @@ Footprint | Description/notes | Preview
 Kailh_socket_PG1350 | Hot-swappable socket mount for [Kailh Choc PCB Sockets](https://novelkeys.xyz/collections/miscellaneous/products/kailh-pcb-sockets?variant=3762779357224) | ![PG1350 socket mount](images/Kailh_socket_PG1350.png)
 Kailh_socket_PG1350_reversible | Enables attaching hot-swappable socket mount on either side of the PCB | ![PG1350 reversible socket mount](images/Kailh_socket_PG1350_reversible.png)
 
-__Note:__ For all socket-mountable (and flexible-mount) footprints here, the socket is placed on the __back__ of the footprint (i.e. the switch ends up mounted on the front if the footprint is placed on the front of the board). This goes against KiCad library standards for SMD parts but is done for consistency between the direct-mount and socket-mount footprints in this library. Be aware of this when placing the footprints on your board.
-
 #### Flexible mounting (choose socket or direct soldered when assembling)
 
 Footprint | Description/notes | Preview
@@ -55,11 +51,15 @@ Footprint | Description/notes | Preview
 Kailh_socket_PG1350_optional | Enables switch to be attached with either through-hole soldering or hot-swappable mount | ![PG1350 optional socket mount](images/Kailh_socket_PG1350_optional.png)
 Kailh_socket_PG1350_optional_reversible | Enables switch to be attached on either side of the PCB with either through-hole soldering or hot-swappable mount | ![PG1350 optional socket mount, reversible](images/Kailh_socket_PG1350_optional_reversible.png)
 
-### Notes (all footprints)
+### Notes for switch footprints
 
 The square in the layer F.Fab is meant to represent the outline of the switch as it would be mounted on the board. This is a change from older versions of this library but matches the KiCad library convention.
 
 The plate footprint and LED mount area are marked on the layer Eco2.User. The plate footprint markings, especially for MX, are meant to show the overall dimensions of the cutout, not to be detailed enough to cut a plate from.
+
+For all socket-mountable (and flexible-mount) footprints here, the socket is placed on the __back__ of the footprint (i.e. the switch ends up mounted on the front if the footprint is placed on the front of the board). This goes against KiCad library standards for SMD parts but is done for consistency between the direct-mount and socket-mount footprints in this library. Be aware of this when placing the footprints on your board.
+
+The fab layer and silkscreen for the socket footprints contain the [standard](https://kicad-pcb.org/libraries/klc/#f5) information for *both* installing the switch on the front of the PCB *and* installing the socket on the back. Likewise, reversible footprints show the information for installation on *both* sides. Particularly with flexible-mount footprints, be careful that this doesn't cause confusion for anyone assembling your board – you may want to delete the extra silkscreen and fab info depending on your preferred assembly method or at least mention this in any assembly documentation you provide for your PCB.
 
 
 ## Other included components
