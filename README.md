@@ -18,6 +18,9 @@ Footprint | Description/notes | Preview
 --------- | ----------------- | -------
 Kailh_socket_MX | Hot-swappable socket mount for MX-compatible switches using [Kailh MX sockets](https://novelkeys.xyz/collections/miscellaneous/products/kailh-pcb-sockets) | ![Kailh_socket_MX](images/Kailh_socket_MX.png)
 Kailh_socket_MX_reversible | Enables attaching hot-swappable MX-compatible socket mount on either side of the PCB. Note that the switch will be "upside-down" when mounted on the back side of the PCB, which may interfere with Cherry Profile keycaps. | ![Kailh_socket_MX_reversible](images/Kailh_socket_MX_reversible.png)
+Kailh_socket_MX_platemount | Hot-swappable socket mount for MX-compatible plate mount (instead of 3 plastic pins, it only have 1 plastic pin on the center) switches using [Kailh MX sockets](https://novelkeys.xyz/collections/miscellaneous/products/kailh-pcb-sockets) **It doesn't support PCB mounting option!** | ![Kailh_socket_MX](images/Kailh_socket_MX_platemount.png)
+Kailh_socket_MX_reversible_platemount | Enables attaching hot-swappable MX-compatible socket mount on either side of the PCB for plate mount (instead of 3 plastic pins, it only have 1 plastic pin on the center) switches. Note that the switch will be "upside-down" when mounted on the back side of the PCB, which may interfere with Cherry Profile keycaps. **It doesn't support PCB mounting option!** | ![Kailh_socket_MX_reversible](images/Kailh_socket_MX_reversible_platemount.png)
+
 
 #### Flexible mounting (choose socket or direct soldered when assembling)
 
@@ -25,6 +28,8 @@ Footprint | Description/notes | Preview
 --------- | ----------------- | -------
 Kailh_socket_MX_optional | Enables mounting MX-compatible switches using either through-hole soldering or the hot-swappable mount. Note that the switch will be "upside-down" when mounted in the socket, which may interfere with Cherry Profile keycaps. | ![Kailh_socket_MX_optional](images/Kailh_socket_MX_optional.png)
 Kailh_socket_MX_optional_reversible | Enables mounting MX-compatible switches using either through-hole soldering or the hot-swappable mount, on either side of the PCB. Note that the switch orientation will be reversed depending on which side of the PCB it is mounted on, which may affect aesthetics if the case leaves the switches visible, as well as possible interference with Cherry Profile keycaps. | ![Kailh_socket_MX_optional_reversible](images/Kailh_socket_MX_optional_reversible.png)
+Kailh_socket_MX_optional | Enables mounting MX-compatible plate mount (instead of 3 plastic pins, it only have 1 plastic pin on the center) switches using either through-hole soldering or the hot-swappable mount. Note that the switch will be "upside-down" when mounted in the socket, which may interfere with Cherry Profile keycaps. **It doesn't support PCB mounting option!** | ![Kailh_socket_MX_optional_platemount](images/Kailh_socket_MX_optional_platemount.png)
+Kailh_socket_MX_optional_reversible | Enables mounting MX-compatible plate mount (instead of 3 plastic pins, it only have 1 plastic pin on the center) switches using either through-hole soldering or the hot-swappable mount, on either side of the PCB. Note that the switch orientation will be reversed depending on which side of the PCB it is mounted on, which may affect aesthetics if the case leaves the switches visible, as well as possible interference with Cherry Profile keycaps. **It doesn't support PCB mounting option!** | ![Kailh_socket_MX_optional_reversible_platemount](images/Kailh_socket_MX_optional_reversible_platemount.png)
 
 
 ### Kailh Low Profile "Choc"
