@@ -131,3 +131,4 @@
   (pad "" np_thru_hole circle (at 5.22 -4.2) (size 0.9906 0.9906) (drill 0.9906) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -5.22 -4.22) (size 0.9906 0.9906) (drill 0.9906) (layers *.Cu *.Mask))
 )
+
